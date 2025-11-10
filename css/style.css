@@ -1,0 +1,247 @@
+@charset "UTF-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Afacad:ital,wght@0,400..700;1,400..700&display=swap');
+.afacad{
+  font-family: "Afacad", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+body{
+margin: 0px; font-family: "Afacad", sans-serif; font-size: 17px;padding: 0
+}
+
+.top-bar{
+	width: 100%; height: 50px; color: #E4E4E4; background-color: black; font-size: 14px; font-weight: 400
+}
+
+.top-bar ul{
+	margin: 0; padding: 15px ; list-style: none; display: flex; 
+
+}
+.top-bar ul li a{
+	text-decoration: none; color: white; padding: 15px; }
+.top-bar ul li a:hover{
+	color: #ffef71
+}
+.border-right{ border-right: 1px solid white}
+header{
+	width: 100%; height: 110px; margin: 0; padding: 0; background-color: white;
+}
+.icon-header{
+ font-size: 20px;}
+
+.icon-header ul{
+	margin: 0; padding: 0; list-style: none; display: flex; 
+}
+.icon-header ul li{
+	padding: 0 5px; padding-top: 15px
+}
+.icon-header ul li a{
+	color: black;   width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center; text-decoration: none
+	
+}
+
+.icon-header ul li a:hover{
+	border-radius: 50px; background-color:#E4E4E4 ;
+}
+.logo{
+	 width: 200px; height: auto; padding-top: 20px
+}
+.menu{
+	padding: 10px 0px; margin: 0px
+}
+.menu ul{
+	margin: 0px; padding: 0px; list-style: none; display: flex;
+}
+.menu ul li a{
+	; text-decoration: none; text-transform: capitalize; font-size: 17px; color: black; display: block; margin-right: 20px
+}
+.menu ul li a:hover{
+background-color:rgba(214,214,214,0.5); 
+}
+
+.banner{
+	width: 100%; min-height: 500px;
+}
+.banner-image{
+	position: relative
+}
+.banner-image .btn-black:hover{
+	color: #ffef71; cursor: pointer
+}
+.caption{
+width: 30%; position: absolute; top: 60%; left: 5%; font-size: 40px; text-transform:uppercase ; color: black; font-weight: 600; padding: 0; margin: 0;
+}
+.caption p{
+	margin-bottom: 20px
+}
+.btn-black{
+	background-color: black; width:130px; height: 40px; color: white; font-size: 15px; text-align: center; padding:0 ;
+}
+
+
+.text-vang{
+	color: rgba(237,255,101,1.00)
+}
+.cover{
+	 background-color: rgba(0,0,0,0.5); position: absolute; width: 100% ;height: 100%; top: 0; left: 0; z-index: 0
+}
+.btn-vien-cam{
+	border: 1px solid orange; padding: 7px 15px; text-transform: capitalize; border-radius: 5px; background-color: rgba(0,0,0,0.00)
+}
+.btn-vien-cam:hover{
+	border: 1px solid orange; padding: 7px 15px; text-transform: capitalize; border-radius: 5px; background-color: darkorange
+}
+.btn-cam{
+	border: 1px solid orange; padding: 7px 15px; text-transform: capitalize; border-radius: 5px; background-color: orange
+}
+.btn-cam:hover{
+	border: 1px solid orange; padding: 7px 15px; text-transform: capitalize; border-radius: 5px; background-color: darkorange
+}
+.text-trang{
+	color: white
+}
+
+/*drop down menu*/
+.menu ul li{
+	position: relative
+}
+.menu ul li .dropdown{ position: absolute; left: 0; top: 100%; display: flex;flex-direction: column; width: 220px; background-color: rgba(113,113,113,0.47); display:  none
+}
+
+.menu .dropdown li{
+	border-bottom: 1px solid white
+}
+
+.menu ul li:hover .dropdown{
+	display: block
+}
+
+.tieu-de{
+	font-size: 30px
+}
+.gach-chan{
+	border-bottom: 1px solid black; margin-top: 10px
+
+}
+.text-do{
+color: darkred
+}
+
+
+
+
+
+
+.pt-30{
+	padding-top: 30px 
+}
+
+
+
+
+.border-right{
+	border-right: 1px white solid
+}
+
+#slide .owl-dots{ position:absolute; bottom: 10px; left:45%;}
+
+#slide .owl-dots .owl-dot span {
+
+      width: 12px;
+
+      height: 12px; 	
+
+}
+footer{
+	width: 100%; min-height: 300px; background: black; color: white; text-transform: capitalize; font-size: 14px
+}
+footer h3{
+	padding-top: 20px
+}
+footer ul{
+	margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column
+}
+footer ul li a{
+	text-decoration: none; color: white; display: block; padding: 5px 0px
+}
+footer ul li a:hover{
+	color: #ffef71
+}
+.border-bottom{
+	
+	border-bottom: 1px solid lightgray
+}
+
+.logo-white{
+	width: 10%; height: auto; padding-top: 3px
+}
+.mr-10{
+	margin-right: 10px
+}
+main{
+	min-height: 900px; width: 100%; margin: 50px 0px ;
+}
+.trend-item{
+	margin-top: 0; padding: 0 5px;  position: relative; overflow: hidden; 
+	}
+
+.xem-them{
+	;	position: absolute; width: 80%; height: 20px; top: -20% ; display: flex; justify-content: space-around; left: 10%; transition: 0.2s ease
+}
+.xem-them a{
+width: 120px; height: 40px; background-color: black; color: white; font-size: 14px; display: flex; justify-content: center; align-items: center; text-decoration: none; 
+}
+.xem-them a:hover{color: #ffef71}
+.trend-item:hover .xem-them{
+	top: 30%
+		
+}
+.ml-5{margin-left: 5px}
+
+.tagline{
+	width: 100% ; margin-top: 50px; padding: 0px 5px ;
+}
+.tagline-text{
+	margin: 50px 70px
+}
+.mt-50{margin-top: 40px}
+.pf-5{
+	padding-left: 5px
+}
+
+
+.headline{
+	font-size: 60px
+}
+.btn-nam-nu{
+background-color: black; color: white; width: 120px; height: 40px; font-size: 13px; margin-top: 10px;cursor: pointer
+}
+.btn-nam-nu:hover{
+	color: #ffef71
+}
+.btn-vien-trang{
+background-color: white; color: black; width: 150px; height: 40px; font-size: 13px; margin-top: 10px;cursor: pointer; text-align: center; justify-content: center; border: 1px white solid
+}
+.btn-vien-trang:hover{
+	background-color: black; color: white; border: black 1px solid
+}
+.flex-row-reverse{flex-direction: row-reverse}
+.text-phai{
+	padding-left: 12.5%
+}
+.fs-14{font-size: 14px}
+.banner-str{
+	width: 100%; position: relative; left: 0; top: 0; height: auto; margin: 0; padding: 0
+}
+.logo-str{
+width: 5%; position: absolute; top: 15%; left: 35%; padding: 0; margin: 0;
+}
+.caption-str{width: 70%; position: absolute; top: 80%; left: 15% ; color: white; padding: 0; margin: 0; text-align: center; align-content: center; justify-content: center
+}
+.caption-str1{width: 70%; position: absolute; top: 4%; left: 15% ; color: white; padding: 0; margin: 0; text-align: center; align-content: center; justify-content: center
+}
